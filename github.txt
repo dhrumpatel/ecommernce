@@ -1,3 +1,15 @@
 add .gitignore (/node_modules) file
 
-git init
+git init (1st time per project)
+
+git add .
+
+git config --global user.name "FIRST_NAME LAST_NAME" (1st time per pc)
+git config --global user.email "email@gmail.com" (1st time per pc)
+
+git commit -m "initial"
+
+git remote add origin https://github.com/dhrumpatel/ecommernce.git (1st time per project)
+
+git push -u origin master (1st time per project)
+or git push
